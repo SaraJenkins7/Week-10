@@ -1,0 +1,129 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(73, 121, 107);
+}
+
+main {
+    background-color: whitesmoke;
+    text-align: center;
+
+}
+
+a {
+    background-color: white;
+    font: black;
+    border-color: rgb(73, 121, 107);
+    border-style: inset;
+    margin-bottom: 3px;
+    margin-left: 3px;
+} 
+
+a:hover {
+    border-style: outset;
+}
+
+table {
+    justify-content: center;
+}
+
+th {
+    justify-content: center;
+}
+
+p {
+    display:flex;
+    justify-content: center;
+}
+
+form {
+    display:inline-block;
+}
+
+@media (max-width: 599px) {
+    a {
+        font-size: 12px;
+    }
+
+    select {
+        width: 70%;
+    }
+
+    table {
+        margin: auto;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+    h1 {
+        font-size: 45px;
+    }
+
+    label {
+        font-size: 20px;
+    }
+   
+    a {
+        font-size: 20px;
+    }
+
+    select {
+        width: 60%;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    form.view_all {
+        width: 85%;
+        font-size: 25px;
+    }
+
+    table {
+        margin: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+    select {
+        width: 65%;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    form.view_all {
+        width: 85%;
+        font-size: 25px;
+    }
+
+    option {
+        font-size: 25px;
+    }
+
+    table {
+        font-size: 30px;
+        margin: auto;
+    }
+
+    th {
+       margin-left: 5px; 
+       margin-right: 5px;
+    }
+}
